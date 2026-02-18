@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conceptos Previos - Desarrollo Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Desarrollo de Aplicaciones Web</h1>
+        <p>Arquitectura Cliente/Servidor • Diseño Centrado en el Usuario • Investigación de Requisitos</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#clienteServidor">Cliente/Servidor</a></li>
+        <li><a href="#disenoUsuario">Diseño Usuario</a></li>
+        <li><a href="#investigacion">Investigación</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+
+    <section id="clienteServidor" class="card reveal">
+        <h2>Arquitectura Cliente/Servidor</h2>
+        <p>
+            Modelo donde el cliente solicita información y el servidor la procesa.
+            Permite escalabilidad, seguridad y organización en capas.
+        </p>
+        <button onclick="toggleInfo('cliente')">Ver importancia</button>
+        <div id="infoCliente" class="info-box">
+            Permite crear aplicaciones dinámicas organizadas en presentación,
+            negocio y datos, facilitando mantenimiento y escalabilidad.
+        </div>
+    </section>
+
+    <section id="disenoUsuario" class="card reveal">
+        <h2>Diseño Centrado en el Usuario</h2>
+        <p>
+            Metodología que coloca al usuario como eje principal del desarrollo,
+            garantizando aplicaciones intuitivas y funcionales.
+        </p>
+        <button onclick="toggleInfo('usuario')">Ver importancia</button>
+        <div id="infoUsuario" class="info-box">
+            Mejora la experiencia de uso, aumenta la satisfacción
+            y reduce errores en la interacción.
+        </div>
+    </section>
+
+    <section id="investigacion" class="card reveal">
+        <h2>Investigación para el Análisis de Requisitos</h2>
+        <p>
+            Proceso fundamental para identificar necesidades reales
+            y definir especificaciones técnicas adecuadas.
+        </p>
+        <button onclick="toggleInfo('investigacion')">Ver importancia</button>
+        <div id="infoInvestigacion" class="info-box">
+            Permite diseñar soluciones acordes al contexto,
+            evitando desarrollos innecesarios o mal enfocados.
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Elaborado por Juan Mena - UNAD 2026</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
